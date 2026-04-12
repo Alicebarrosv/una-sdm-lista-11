@@ -1,5 +1,7 @@
 # 🏦 GlobalBankApi - Lista de Exercícios XI
 
+## Nome: Alice Barros Viana
+
 Bem-vindo ao projeto **GlobalBankApi**. 
 
 Este é um exercício prático destinado ao aprendizado de sistemas distribuídos, desenvolvimento de APIs com .NET e persistência de dados em memória.
@@ -98,6 +100,7 @@ Para validar sua atividade, siga estes passos:
 4.  **Resposta Teórica:** No final deste README (ou em um arquivo separado), responda à seguinte questão:
 
 > **Pergunta:** Sendo este um sistema distribuído, quais seriam os riscos de manter o saldo em memória (InMemory) caso tivéssemos múltiplas instâncias desta API rodando simultaneamente?
+> ### Resposta :  Manter saldo apenas em memória em um ambiente distribuído é inseguro e impraticável. O saldo deve estar em um repositório persistente e consistente, com mecanismos de sincronização entre instâncias.
 
 ---
 
